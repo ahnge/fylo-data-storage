@@ -121,7 +121,6 @@ body {
     position: absolute;
     right: 6%;
     top: -35%;
-    flex: initial;
 }
 .abs h1 {
     color: hsl(229, 7%, 55%);
@@ -164,13 +163,12 @@ body {
     .abs {
         background-color: #fff;
         position: absolute;
-        width: 150px;
+        flex-basis: 20%;
         bottom: -25%;
         top: unset;
-        right: unset;
-        left: 50%;
-        margin-left: -85px;
-        flex: none;
+        right: 0;
+        left: 0;
+        margin: auto;
     }
     .abs h1 span {
         font-size: 30px;
